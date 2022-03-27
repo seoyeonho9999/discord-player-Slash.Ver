@@ -13,6 +13,7 @@ DM은 seoyeonho9999#4988 여기 또는 seoyeonho1234#3212 으로 보내주세요
 
 핸들러
 //index.js
+
 client.on("interactionCreate", async interaction =>{
     
     if(!interaction.isCommand()) return;
