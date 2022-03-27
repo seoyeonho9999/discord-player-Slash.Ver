@@ -13,7 +13,7 @@
 
 ### 핸들러
 ### //index.js
-{
+```
 
 client.on("interactionCreate", async interaction =>{
     
@@ -28,12 +28,12 @@ client.on("interactionCreate", async interaction =>{
         await interaction.reply({content: "오류가 발생했습니다", ephemeral: true })
     }
 })
+```
 
-}
 ### 플레이어
 ### //index.js
-{
 
+```
 const { Player } = require('discord-player')
 const player = new Player(client, {
     ytdlOptions: {
@@ -41,12 +41,12 @@ const player = new Player(client, {
       highWaterMark: 32 * 1024 * 1024
     }
   })
+```
 
-}
 ### 이벤트
 ### //index.js
-{
 
+```
 const comma = require('comma-number')
 player.on("trackStart", (queue, track) => {
     const { getYouTubeThumbnail } = require("yt-vimeo-thumbnail/dist/youtube/getYouTube");
@@ -85,4 +85,4 @@ player.on("trackAdd", (queue, track) => {
                   queue.metadata.send({ embeds: [playl] })
       })
 
-}
+```
