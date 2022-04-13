@@ -8,7 +8,7 @@
 ### discord-player, discord.js, opusscript, ffmpeg-static, yt-vimeo-thumbnail, comma-number
 
 ### 오류 DM 받습니다
-### DM은 seoyeonho9999#4988 여기 또는 seoyeonho1234#3212 으로 보내주세요
+### DM은 seoyeonho9999#9999 여기 또는 seoyeonho1234#3212 으로 보내주세요
 ### 2차 수정가능합니다. 2차 배포는 금지합니다. 라이센스 표기 안하셔도 됩니다
 
 ### 핸들러
