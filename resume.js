@@ -7,6 +7,7 @@ module.exports = {
       
       const nickname = interaction.member.nickname || interaction.member.user
         const queue = player.getQueue(interaction.guild.id);
+await queue.setPaused(false);
           let pausedembed = new Discord.MessageEmbed()
           .setColor("GREEN")
           .setTitle("⏯️ 재개 ⏯️")
